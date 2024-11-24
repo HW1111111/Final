@@ -72,7 +72,7 @@ post/createPost - A form for adding a new blog post. Accessible only when logged
 
 /profile - Displays a list of posts created by the user.
 
-<img src="documentation/photo5.png" alt="photo4"  />
+<img src="documentation/photo4.png" alt="photo4"  />
 
 ## Site map
 
