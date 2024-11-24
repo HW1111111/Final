@@ -38,9 +38,8 @@ An Example Post:
     updatedAt: "2024-11-01T12:00:00Z"
 }
 ```
-```
 
-An example Comment:
+An example comment:
 
 ```javascript
 {
@@ -53,7 +52,7 @@ An example Comment:
 }
 ```
 
-## [Link to Commented First Draft Schema](model/index.js)
+## [Link to Commented First Draft Schema](final-project-backend/model/index.js)
 
 Already linked.
 
@@ -61,23 +60,19 @@ Already linked.
 
 / - home, Lists all posts in reverse chronological order (latest first). Displays titles and publication times. Users can click a post to see its details.
 
-<img src="documentation/photo1.png" alt="photo1" style="zoom: 33%;" />
+<img src="documentation/photo1.png" alt="photo1"  />
 
-post/add - A form for adding a new blog post. Accessible only when logged in.
+post/createPost - A form for adding a new blog post. Accessible only when logged in.
 
-<img src="documentation/photo2.png" alt="photo2" style="zoom: 33%;" />
+<img src="documentation/photo2.png" alt="photo2"  />
 
-/post/:slug - Displays the details of a specific post, including the author, published date, updated date, and comments.
+/post/:slug - Displays the details of a specific post, including the author, published date and comments.
 
-<img src="documentation/photo3.png" alt="photo3" style="zoom: 33%;" />
+<img src="documentation/photo3.png" alt="photo3"  />
 
-/post/:slug/comment - A form for adding a comment to a specific post. Accessible only when logged in.
+/profile - Displays a list of posts created by the user.
 
-<img src="documentation/photo4.png" alt="photo4" style="zoom: 33%;" />
-
-/my-posts - isplays a list of posts created by the logged-in user.
-
-<img src="documentation/photo5.png" alt="photo5" style="zoom: 33%;" />
+<img src="documentation/photo5.png" alt="photo4"  />
 
 ## Site map
 
@@ -120,13 +115,13 @@ post/add - A form for adding a new blog post. Accessible only when logged in.
     - Link to the relevant configuration code in the repository.
 
 
-## [Link to Initial Main Project File](app.js)
+## [Link to Initial Main Project File](final-project-backend/app.js)
 
 Already Linked
 
 ## Annotations / References Used
 
 2. [Express Documentation](https://expressjs.com/) - Reference for setting up the Express server.
-2. [Mongoose Documentation](https://mongoosejs.com/docs/guide.html) - Guide for creating Mongoose schemas.
-3. [Bcrypt Documentation](https://www.npmjs.com/package/bcrypt) - Used for password hashing.
-4. [Handlebars Documentation](https://handlebarsjs.com/) - Used for creating dynamic frontend views.
+3. [Mongoose Documentation](https://mongoosejs.com/docs/guide.html) - Guide for creating Mongoose schemas.
+4. [Bcrypt Documentation](https://www.npmjs.com/package/bcrypt) - Used for password hashing.
+5. [Handlebars Documentation](https://handlebarsjs.com/) - Used for creating dynamic frontend views.
